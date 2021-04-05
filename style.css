@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color : #93F9B9;
+  font-family: Orbitron, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  margin: 25px;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 40px auto;
+}
+
+.externo {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
